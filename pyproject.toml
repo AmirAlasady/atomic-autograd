@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atomic"
+version = "0.1.0"
+description = "A lightweight, flexible autograd engine for deep learning"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Amir Rabah Ashour", email = "amiralasady107@gmail.com"}
+]
+keywords = ["deep learning", "autograd", "neural network", "numpy", "cupy"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "requests"
+]
+
+[project.optional-dependencies]
+gpu = ["cupy>=10.0.0"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/atomic"
+Repository = "https://github.com/yourusername/atomic"
+Issues = "https://github.com/yourusername/atomic/issues"
