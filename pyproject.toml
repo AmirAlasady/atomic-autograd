@@ -37,4 +37,5 @@ test = ["pytest"]
 [project.urls]
 Homepage = "https://github.com/AmirAlasady/atomic-autograd.git"
 Repository = "https://github.com/AmirAlasady/atomic-autograd.git"
-Issues = "https://github.com/AmirAlasady/atomic-autograd/issues"
+[tool.setuptools]
+packages = ["atomic"]
