@@ -1,0 +1,10 @@
+LICENSE
+README.md
+__init__.py
+pyproject.toml
+./__init__.py
+atomic.egg-info/PKG-INFO
+atomic.egg-info/SOURCES.txt
+atomic.egg-info/dependency_links.txt
+atomic.egg-info/requires.txt
+atomic.egg-info/top_level.txt
