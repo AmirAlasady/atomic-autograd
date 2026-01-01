@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
-  {name = "Amir Rabah Ashour", email = "amiralasady107@gmail.com"}
+  {name = "Amir Rabah Ashour founder of atomic ai", email = "amiralasady107@gmail.com"}
 ]
 keywords = ["deep learning", "autograd", "neural network", "numpy", "cupy"]
 classifiers = [
@@ -35,6 +35,6 @@ gpu = ["cupy>=10.0.0"]
 test = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/atomic"
-Repository = "https://github.com/yourusername/atomic"
-Issues = "https://github.com/yourusername/atomic/issues"
+Homepage = "https://github.com/AmirAlasady/atomic-autograd.git"
+Repository = "https://github.com/AmirAlasady/atomic-autograd.git"
+Issues = "https://github.com/AmirAlasady/atomic-autograd/issues"
